@@ -1,0 +1,23 @@
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gallery li {
+  display: none;
+}
+
+.gallery li.active {
+  display: block;
+}
+
+.gallery img {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
